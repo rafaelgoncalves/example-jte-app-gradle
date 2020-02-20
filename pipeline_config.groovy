@@ -7,6 +7,7 @@
   unit_test() 
 */
 libraries{
+  git
   gradle
   docker {
     file = "Dockerfile"
