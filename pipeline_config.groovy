@@ -9,10 +9,10 @@
 libraries{
   gradle
   docker {
-    file: "Dockerfile",
-    registry: "registry.intranet.pagseguro.uol",
-    credentials: "svcacc_ps_jenkins" /* Credentials Id Jenkins to push image */
-    repo: "mazagon/jenkins-health-job",
-    tag: "latest"
+    file = "Dockerfile",
+    registry = "registry.intranet.pagseguro.uol",
+    credentials = "svcacc_ps_jenkins" /* Credentials Id Jenkins to push image */
+    repo = "mazagon/jenkins-health-job",
+    tag = "latest"
   }
 }
